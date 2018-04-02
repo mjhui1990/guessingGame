@@ -1,3 +1,14 @@
+body {
+    background-image: url('dice.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#app{
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(256, 256, 256, .4)
+}
 .center {
     text-align: center;
   }
@@ -15,4 +26,42 @@
       background-color: white;
       position: fixed;
       bottom: 0;
+  }
+
+  #submit-btn {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 120px;
+  }
+  #input-parent {
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+  }
+
+  #guesses {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .guess {
+    display: inline;
+    font: 60px;
+    border: 1px solid black;
+    padding: 20px 25px;
+    border-radius: 10%;
+    
+  }
+
+  #player-input {
+     border-radius: 50%;
+     width: 160px;
+     height: 160px;
+     font-size: 50px;
+  }
+
+  #name {
+      margin-top: 20px;
   }

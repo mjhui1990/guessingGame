@@ -5,11 +5,12 @@
     <title>Guessing Game</title>
 
     <!-- Bootstrap and CSS here-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
 
-      <div class="center" id='app'>
+      <div class="center container" id='app'>
 
         <div  id='headers'>
             <title>Play the Guessing Game</title>
@@ -21,7 +22,7 @@
           <div id='input-parent'>
             <!-- Player's guess input, and submit button -->
             <input id="player-input" class="center" placeholder="#" maxlength="3"></input>
-            <button>Submit</button>
+            <button  type="button" id="submit-btn" class="btn btn-primary" >Submit</button>
           </div>
 
           <div id='guesses'>
@@ -37,8 +38,8 @@
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
-            <button>Reset</button>
-            <button>Hint</button>
+            <button type="button" class="btn btn-success">Reset</button>
+            <button type="button" class="btn btn-info">Hint</button>
           </div>
         </div>
       </div>
@@ -46,16 +47,16 @@
 
 
     <div id='footer'>
-        <div>
-          <div class='center'>
+        <div class="row">
+          <div class='center col-sm'>
             <img src='fa-logo@2x.png'></img>
           </div>
 
-          <div class='center'>
-            <h4>Project by YOUR NAME HERE</h4>
+          <div class='center col-sm'>
+            <h4 id="name" >Project by John Hui</h4>
           </div>
 
-          <div class='center'>
+          <div class='center col-sm'>
             <img src='grace_hopper_academy.png'></img>
           </div>
 
